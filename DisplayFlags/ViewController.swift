@@ -9,8 +9,7 @@ import UIKit
 
 class ViewController: UITableViewController {
     
-    //var countryflags = [String]()
-    var countryflags = ["estonia.jpg", "france.jpg", "germany.jpg", "ireland.jpg", "italy.jpg","monaco.jpg","nigeria.jpg","poland.jpg","russia.jpg","spain.jpg","uk.jpg","us.jpg"]
+    var countryflags = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,17 +20,17 @@ class ViewController: UITableViewController {
         //set title to large
         navigationController?.navigationBar.prefersLargeTitles = true
         
-//        let fm = FileManager.default
-//        let path = Bundle.main.resourcePath!
-//        let items = try! fm.contentsOfDirectory(atPath: path)
-//
-//        for item in items {
-//            if item.hasSuffix("jpg") {
-//                countryflags.append(item)
-//            }
-//        }
-//
-//        print(countryflags)
+        let fm = FileManager.default
+        let path = Bundle.main.resourcePath!
+        let items = try! fm.contentsOfDirectory(atPath: path)
+
+        for item in items {
+            if item.hasSuffix("png") {
+                countryflags.append(item)
+            }
+        }
+
+        print(countryflags)
     }
     
     //number of rows on the table
