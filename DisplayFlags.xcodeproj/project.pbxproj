@@ -37,6 +37,7 @@
 		B58C6DC929F86F6D0090E084 /* monaco@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B58C6DB129F86F6C0090E084 /* monaco@3x.png */; };
 		B58C6DCA29F86F6D0090E084 /* germany@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B58C6DB229F86F6C0090E084 /* germany@2x.png */; };
 		B58C6DCB29F86F6D0090E084 /* germany@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B58C6DB329F86F6C0090E084 /* germany@3x.png */; };
+		B5AAE0DC2A0832B700C730E1 /* FlagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AAE0DB2A0832B700C730E1 /* FlagViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		B58C6DB129F86F6C0090E084 /* monaco@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monaco@3x.png"; sourceTree = "<group>"; };
 		B58C6DB229F86F6C0090E084 /* germany@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "germany@2x.png"; sourceTree = "<group>"; };
 		B58C6DB329F86F6C0090E084 /* germany@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "germany@3x.png"; sourceTree = "<group>"; };
+		B5AAE0DB2A0832B700C730E1 /* FlagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				B5207D2429F726650077201A /* AppDelegate.swift */,
 				B5207D2629F726650077201A /* SceneDelegate.swift */,
 				B5207D2829F726650077201A /* ViewController.swift */,
+				B5AAE0DB2A0832B700C730E1 /* FlagViewController.swift */,
 				B5207D2A29F726650077201A /* Main.storyboard */,
 				B5207D2D29F726670077201A /* Assets.xcassets */,
 				B5207D2F29F726670077201A /* LaunchScreen.storyboard */,
@@ -242,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5AAE0DC2A0832B700C730E1 /* FlagViewController.swift in Sources */,
 				B5207D2929F726650077201A /* ViewController.swift in Sources */,
 				B5207D2529F726650077201A /* AppDelegate.swift in Sources */,
 				B5207D2729F726650077201A /* SceneDelegate.swift in Sources */,
